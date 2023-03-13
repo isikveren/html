@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+</head>
+
+<body>
+    <form action="index.html" method="POST" name="login">
+        <div> <label for="username">用户名：</label> <input type="text" value="请输入用户名" maxlength="10" id="username"></div>
+        <div> <label for="password">密码：</label> <input type="password" id="password"></div>
+        <div>性别：<label for="nan">男</label> <input type="radio" id="nan" name="sex" value="男">
+            <label for="nv">女</label><input type="radio" id="nv" value="女" name="sex">
+        </div>
+        <div>爱好： <input type="checkbox" name="hobby" id="" value="打游戏">打游戏
+            <input type="checkbox" name="hobby" id="" value="打豆豆">打豆豆
+            <input type="checkbox" name="hobby" id="" value="撸铁">撸铁
+        </div>
+
+        <!-- checked 默认勾选 -->
+        <input type="checkbox" name="" id="agree" value="同意" checked> <label for="agree">我同意注册条款和会员加入标准</label>
+
+        <input type="submit" value="登录">
+        <input type="submit" value="注册">
+
+        <input type="reset" value="重置"> <br>
+        上传头像：<input type="file" name="" id="">
+
+        网站分类：<select name="select" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12" selected>12</option>
+        </select>
+        <br>
+        <!-- textarea文本域 -->
+        <textarea name="" id="" cols="30" rows="3">asd</textarea>建议5-60字
+    </form>
+</body>
+
+</html>

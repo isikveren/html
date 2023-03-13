@@ -1,6 +1,11 @@
 img {
     width: 25px;
 }
+
 thead {
-    background-color: chocolate;
+    background-color: rgb(114, 249, 249);
+}
+
+td {
+    width: 25px;
 }
