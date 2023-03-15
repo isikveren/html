@@ -24,10 +24,10 @@
 - normal 字体样式还原
 - font: font-sytle font-weight font-size/line-height font-family;
 - 不能更换顺序，不需要设置的属性可以省略，但必须保留 font-size font-family  
-  <img src="../img/3_13.png" alt="">
+  <img src="../img/3_13.png" alt="" width = "500px">
 - color 定义文本的颜色 预定义颜色，十六进制，rgb 代码
 - text-align 元素内文本内容的水平对齐方式
-  <img src="../img/3_13_2.png" alt="" >
+  <img src="../img/3_13_2.png" alt="" width = "500px" >
 
 ### 装饰文本
 
@@ -35,10 +35,10 @@
   <img src="../img/3_14_1.png" alt="" >
 - text-indent 缩进 em 是相对单位 相对于当前元素文字大小
 - 行间距 line-height
-  <img src="../img/3_14_2.png" alt="" >
-  <img src="../img/3_14_3.png" alt="" >
+  <img src="../img/3_14_2.png" alt=""  width = "500px">
+  <img src="../img/3_14_3.png" alt=""  width = "500px">
 - 快速生成语法
-  <img src="../img/3_14_4.png" alt="" >
+  <img src="../img/3_14_4.png" alt=""  width = "500px">
 - 后代选择器用空格隔开 ul li
 
 ```css
@@ -68,3 +68,9 @@ ul li {
   color: pink;
 }
 ```
+
+### 伪类选择器
+
+ <img src="../img/3_15_1.png" alt="" width = "500px">
+
+- 链接伪类声明顺序 link visited hover active
