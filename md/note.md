@@ -73,4 +73,6 @@ ul li {
 
  <img src="../img/3_15_1.png" alt="" width = "500px">
 
-- 链接伪类声明顺序 link visited hover active
+- 链接伪类声明顺序 LVHA link visited hover active
+
+<img src="../img/3_16_1.png" alt="" width = "500px">
