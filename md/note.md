@@ -75,4 +75,11 @@ ul li {
 
 - 链接伪类声明顺序 LVHA link visited hover active
 
-<img src="../img/3_16_1.png" alt="" width = "500px">
+<img src="../img/3_15_1.png" alt="" width = "500px">
+
+### 块元素
+
+- 比较霸道，自己独占一行
+- 高度，宽度，外边距一级内边距都可以控制
+- 宽度默认是容器的 100%
+- 是一个容器及盒子，里面可以放房内或者块级元素
