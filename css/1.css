@@ -9,3 +9,15 @@ thead {
 td {
     width: 25px;
 }
+
+table {
+    width: 500px;
+    height: 248px;
+}
+
+td,
+table,
+th {
+    /* 合并相邻的边框 */
+    border: 1px solid pink;
+}
