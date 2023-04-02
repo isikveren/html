@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 1226px;
+    height: 615px;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(179, 111, 111, .8);
+    float: left;
+}
+
+.right {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(100, 225, 225, .8);
+    float: left;
+}
+
+.block {
+    width: 234px;
+    height: 302px;
+    background-color: aquamarine;
+    float: left;
+    margin: 0px 0px 11px 11px;
+}
+
+.block:hover {
+    background-color: pink;
+}
+
+.left:hover {
+    background-color: pink;
+}
