@@ -258,7 +258,7 @@ a:any-link {
 
 .box {
     margin: 35px auto 0;
-    height: 600px;
+    /* height: 600px; */
 
 
 }
@@ -284,7 +284,8 @@ a:any-link {
 }
 
 .box-bd {
-    height: 555px;
+    /* height: 555px; */
+    /* background-color: pink; */
 }
 
 
@@ -351,4 +352,30 @@ a:any-link {
     list-style: none;
     line-height: 42.5px;
     font-size: 14px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: pink;
+    height: 400px;
+}
+
+.fbox {
+    background-color: #00b4ff;
+    height: 300px;
+}
+
+.copyright {
+    float: right;
+    height: 200px;
+    width: 300px;
+    background-color: #86adbd;
+}
+
+.links {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #46617d;
+    margin: 1px 1px 1px 1px;
 }
