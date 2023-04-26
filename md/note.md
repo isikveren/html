@@ -92,3 +92,57 @@ a{
    text-indent：2em;
 }
 ```
+<<<<<<< HEAD
+=======
+
+```css
+p {
+  background-color: #fa9289;
+  position: absolute;
+  position: sticky;
+  position: relative;
+}
+```
+
+- 隐藏元素
+
+```css
+.a1 {
+  background-color: pink;
+  /* visibility: visible; */
+  visibility: hidden;
+}
+
+.a2 {
+  background-color: rgb(143, 102, 109);
+  /* display: none; */
+}
+```
+
+- overflow 溢出：visible、auto、hidden、scroll
+
+```css
+.overflow {
+  background-color: aquamarine;
+  overflow: auto;
+}
+```
+
+- background
+
+```css
+.mask {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.3) url(../img/arr.png) no-repeat center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* visibility: hidden; */
+}
+```
+
+### 精灵图
+
+-
+>>>>>>> 1e7fc4b (update)

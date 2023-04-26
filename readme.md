@@ -11,12 +11,3 @@
 --> 中后台开发（数据大屏，登录鉴权，增上改查，动态权限等）--> 面试题/简历。
 
 - 定位
-
-```css
-p {
-  background-color: #fa9289;
-  position: absolute;
-  position: sticky;
-  position: relative;
-}
-```

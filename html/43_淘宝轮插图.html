@@ -54,7 +54,25 @@
             position: absolute;
             left: 50%;
             margin-left: -35px;
-            top: 80%;
+            bottom: 15px;
+            width: 70px;
+            height: 13px;
+            background-color: rgb(255, 255, 255, .3);
+            border-radius: 7px;
+            list-style: none;
+        }
+
+        .promo-nav li {
+            height: 8px;
+            width: 8px;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.7);
+            float: left;
+            margin: 3px;
+        }
+
+        .promo-nav .selected {
+            background-color: #ff5500;
         }
     </style>
 </head>
@@ -65,7 +83,7 @@
         <a href="#" class="prev">&lt;</a>
         <a href="#" class="next">&gt;</a>
         <ul class="promo-nav">
-            <li></li>
+            <li class="selected"></li>
             <li></li>
             <li></li>
             <li></li>
