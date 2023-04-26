@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ykaju6');
+  src:  url('fonts/icomoon.eot?ykaju6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ykaju6') format('truetype'),
+    url('fonts/icomoon.woff?ykaju6') format('woff'),
+    url('fonts/icomoon.svg?ykaju6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-directus:before {
+  content: "\e900";
+}
+.icon-eclipseide:before {
+  content: "\e901";
+  color: #2c2255;
+}
+.icon-gnu:before {
+  content: "\e902";
+  color: #a42e2b;
+}
+.icon-internetexplorer:before {
+  content: "\e903";
+  color: #0076d6;
+}
+.icon-justgiving:before {
+  content: "\e904";
+  color: #ad29b6;
+}
+.icon-postgresql:before {
+  content: "\e905";
+  color: #336791;
+}
+.icon-swift:before {
+  content: "\e906";
+  color: #fa7343;
+}
+.icon-ted:before {
+  content: "\e907";
+  color: #e62b1e;
+}
+.icon-tencentqq:before {
+  content: "\e908";
+  color: #eb1923;
+}
+.icon-tesla:before {
+  content: "\e909";
+  color: #c00;
+}
+.icon-windows:before {
+  content: "\e90a";
+  color: #0078d6;
+}
+.icon-home:before {
+  content: "\e90b";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-play2:before {
+  content: "\ea15";
+}
+.icon-pause:before {
+  content: "\ea16";
+}
+.icon-stop:before {
+  content: "\ea17";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-arrow-down2:before {
+  content: "\ea3e";
+}
+.icon-arrow-left2:before {
+  content: "\ea40";
+}

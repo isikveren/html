@@ -92,8 +92,6 @@ a{
    text-indent：2em;
 }
 ```
-<<<<<<< HEAD
-=======
 
 ```css
 p {
@@ -144,5 +142,24 @@ p {
 
 ### 精灵图
 
--
->>>>>>> 1e7fc4b (update)
+- 一张大图里面使用各个小图
+~~~css
+ .z {
+      width: 116px;
+       height: 150px;
+            background: url(../img/abcd.jpg) no-repeat;
+            background-position: -477px -545px;
+     }
+~~~
+
+### 鼠标样式
+
+~~~html
+ <ul>
+        <li style="cursor : pointer;">pointer</li>
+        <li style="cursor:not-allowed"> not-allowed</li>
+        <li style="cursor:text">text</li>
+        <li style="cursor:move">move</li>
+        <li style="cursor:default"> default</li>
+    </ul>
+~~~
