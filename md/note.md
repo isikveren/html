@@ -163,3 +163,4 @@ p {
         <li style="cursor:default"> default</li>
     </ul>
 ~~~
+- vertical-align 对齐方式
