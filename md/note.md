@@ -143,24 +143,49 @@ p {
 ### 精灵图
 
 - 一张大图里面使用各个小图
-~~~css
- .z {
-      width: 116px;
-       height: 150px;
-            background: url(../img/abcd.jpg) no-repeat;
-            background-position: -477px -545px;
-     }
-~~~
+
+```css
+.z {
+  width: 116px;
+  height: 150px;
+  background: url(../img/abcd.jpg) no-repeat;
+  background-position: -477px -545px;
+}
+```
 
 ### 鼠标样式
 
-~~~html
- <ul>
-        <li style="cursor : pointer;">pointer</li>
-        <li style="cursor:not-allowed"> not-allowed</li>
-        <li style="cursor:text">text</li>
-        <li style="cursor:move">move</li>
-        <li style="cursor:default"> default</li>
-    </ul>
-~~~
+```html
+<ul>
+  <li style="cursor : pointer;">pointer</li>
+  <li style="cursor:not-allowed">not-allowed</li>
+  <li style="cursor:text">text</li>
+  <li style="cursor:move">move</li>
+  <li style="cursor:default">default</li>
+</ul>
+```
+
 - vertical-align 对齐方式
+
+```css
+img {
+  /* vertical-align: middle;
+             */
+  vertical-align: top;
+}
+```
+
+- 处理轮廓线的两种方式
+
+```css
+img {
+  /* display: block; */
+  vertical-align: bottom;
+}
+```
+
+- 溢出的文字用省略号表示
+
+```css
+
+```

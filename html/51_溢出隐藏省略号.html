@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            /* 强制一行内显示文本 */
+            white-space: nowrap;
+            /* 省略号代替超出的部分 */
+            text-overflow: ellipsis;
+        }
+
+        .box2 {
+            width: 100px;
+            height: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        我行过许多地方的桥，看过许多次数的云，喝过许多种类的酒，却只爱过一个正当最好年龄的人
+    </div>
+    <div class="box2">
+        但是你听李志的时候想起的那个人，是绝对不会跟你在一起的
+    </div>
+
+</body>
+
+</html>
